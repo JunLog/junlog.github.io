@@ -1,0 +1,121 @@
+body{
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: bree serif, LXGW WenKai, sans-serif;
+}
+
+.header-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 32px;
+    font-family: bungee shade, sans-serif, LXGW WenKai;
+}
+
+.header-subtitle{
+    color: #666;
+}
+
+nav{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.links{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    /* 定义了项目在主轴上的对齐方式 */
+    /* justify-content: space-between;  */
+    justify-content: space-around; 
+    /* justify-content: space-evenly;  */
+}
+
+
+/* .links  */
+a{
+    margin: 0 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* .links  */
+a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.nav-line{
+    width: 100%;
+    border-width: 2px;
+    border-color: #482936;
+    border-style: solid none none none;
+}
+
+.posts-list{
+    min-height: 600px;
+}
+
+.posts-list section h1{
+    font-size: 2rem;
+}
+
+.post-line{
+    margin: 12px 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    /* 定义了项目在主轴上的对齐方式 */
+    /* justify-content: space-between;  */
+}
+
+.post-line-date{
+    flex: 0 0 12%;
+}
+
+.post-line-title{
+    flex: 0 0 73%;
+}
+
+.post-line-tag{
+    flex: 0 0 11%;
+    padding: 3px 0;
+    border: #000 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: .9rem;
+    margin: auto;
+    font-weight: bold;
+    /* font-weight:400; */
+}
+
+.post-header{
+    margin-bottom: 50px;
+}
+
+.post-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.post-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-content{
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 18px;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.post-content img{
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-top: 12px;
+} 
